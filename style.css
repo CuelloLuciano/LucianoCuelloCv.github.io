@@ -142,7 +142,7 @@ main {
   height: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url("./assets/img/Bitcoin.svg");
+  background-image: url("https://lh3.googleusercontent.com/EnZsTc1NuLGn8-xCZzMSWj6FnSFXBsrD0fiYOLFkCpLkoN02spO66cjvnq-u6Vco1SXgdy0ttLvjmg8ou-NJdn5ORKELFoP7reAa2Y5yiL-rr7MPZ8PgRkNSisAmBEmcWpjdcp-ag543-dU8XD0MIfQLDN658uYclkZ6kQA0-4-cDQO8Nx5EXxKq8wZV_Gg0lYkQoMfD40RNVQtOq3rblo0y-1AGnTytDlbwYRDpY4ZWNkeZhz2QynFRdGlGOzpEs43IHhJhdaACTJemU07lmenQ4IK6l0V8NWCqO4x8fo_9u0I7f4pH9V8uVvRg6jgazYlPkPli702uzSlwz6Jf13V3eUtCMMYgTYscd9UCMEVOpDjZSVTWJy3M2Oz3XP3_Ud2sqpkiUHVBaKuXb9ipktWoWZXeza2JdqWQCugLwfDMacGxrZ6fDL7SG7eTQGLevD8hi2m85fBzr7IaMosbLmdoRWDCcrRo0Lpo8ZhjQwBQWpjyVl6VdbPOFI-wHVPFDTISYO07axrticExGlo3C8VJGY4CklLBA0xB7w9dFAyU-CLhHB1NlKUhHavWXyCvNwkClwsBEfrdjsHKNH--uxpRz1LMVoXXkncvAsD3qroW3HDIVJvBNvm0Odtxx8SfCLv_Umxu0aHKWnPKRaHyowMcCcJFlJ65liZ1_rl9F5RkVdnkM-L_w1rmk0LGdADM7huLjzKse5VGX78202laZ02kNSC7h7HDk-8HI4iqNpxRAos0t0PZmcBJFMNhED_xGBoxpExp-xQvzS3OPEBP3VxmOIBK2RHOFoB6BuREgbgdtuyoWJczwjPd1pPTWWXl2np2hKnSE_iyL-3hzU_0Em92Q8XC8ZnhdfJO7m4PuJQoS5-ZpDvwKbsfu4V9eEeoNM4gYkA3on329OvUSABPeriQQa-Gi6S3pjjKVjYcIaSPfDvN=s512-no?authuser=0");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@ main {
   height: 100%;
 }
 .currency-table--container  td{
-  width: 50%;
+  width: 100%;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
@@ -217,7 +217,7 @@ main {
   border-radius: 0 0 0 15px;
 }
 
-.currency-table--container .table__rigth {
+.currency-table--container .table__p {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
