@@ -1,149 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
-    <title>Pagina personal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV - Luciano Cuello</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #333;
+      margin: 40px;
+      background-color: #fff;
+      text-align: justify;
+    }
+
+    h1 {
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      text-align: center;
+      font-size: 13px;
+      margin-bottom: 30px;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #000;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    .resumen-row {
+      display: flex;
+      gap: 20px;
+    }
+
+    .resumen-label {
+      flex: 1;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .resumen-content {
+      flex: 5;
+    }
+
+    .entry-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    .entry-date-location {
+      flex: 1;
+      max-width: 30%;
+      font-style: italic;
+      color: #555;
+      font-size: 13px;
+    }
+
+    .entry-description {
+      flex: 2;
+      max-width: 65%;
+    }
+
+    .skills {
+      column-count: 2;
+      column-gap: 40px;
+    }
+
+    .skills div {
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <img class="image" src="https://i.postimg.cc/rpyKvYwy/IMG-20211204-121151840.jpg" alt="">
-    <div class="header--title-container">
-      <h1 class="intro-heading">Hola soy  <span>Luciano</span> Cuello</h1>
-            <p class="intro-text">Bioingeniero trabajando en desarrollo web. cakePHP,JS,CSS y HTML.</p>
-      <a class="header--button" href="#plans">
-        mas sobre mi <span></span>
-      </a>
+  <h1>Luciano Cuello, Analista</h1>
+  <div class="contact-info">
+    Rosario, S2000, Argentina | (3445) 408977 | cuelloluciano@gmail.com | 
+    <a href="https://www.linkedin.com/in/lucianocuello">linkedin.com/in/lucianocuello</a>
+  </div>
+
+  <div class="section">
+    <div class="resumen-row">
+      <div class="resumen-label">Resumen</div>
+      <div class="resumen-content">
+        Proactivo Bioingeniero con más de 7 años de experiencia en el ámbito de la salud y tecnología médica. 
+        Experto en desarrollo de software, con un proyecto final orientado al monitoreo de ECG para deportistas. 
+        En roles previos, asesoré en equipamiento médico y coordiné la interacción entre técnicos y oftalmólogos. 
+        Capaz de aportar soluciones innovadoras y efectivas, destacando mi habilidad para integrar tecnología y salud 
+        en entornos profesionales exigentes.
+      </div>
     </div>
-  </header>
-  
-  
-    <main>
-      <section class="main-exchange-container">
-        <div class="background-img">
-  
-        </div>
-        <div class="main-exchange-container--title">
-          <h2>Experiencia profesional</h2>
-          <p>Graduado en la Universidad Nacional de Entre Rios</p>
-        </div>
-        <section class="main-tables-container">
-          <div class="main-currency-table">
-            <p class="currency-table--title">Trabajos</p>
-            <div class="currency-table--container">
-              <table>
-                <tr>
-                  <td class="table__top"> Asesor tecnico en D.G de coordinacion, Tecnologias y financiamiento en salud. Min. Salud GCBA</td>
-                </tr>
-                <tr>
-                  <td class="table__p"> Encargado de asesoramiento sobre equipamiento medico en el Hospital General de niños Ricardo Gutierrez </td>
-                </tr>
-                <tr>
-                  <td class="table__inter"> Operador OCT </td>
-                </tr>
-                <tr>
-                  <td class="table__p"> Coordinador de trabajos entre tecnicos y oftalmologos. Asesoria tecnica sobre equipamiento medico </td>
-                </tr>
-                
-                <tr>
-                  <td class="table__inter"> 2022 </td>
-                </tr>
-                <tr>
-                  <td class="table__bottom table__p">Docencia universitaria</td>
-                </tr>
-              </table>
-            </div>
-            <div class="currency-table--date">
-              <p>
-                <b>
-                  Actualizado:</b> 
-                   29 de Enero 13:30
-                
-              </p>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section class="main-education-detail">
-        <span class="education-detail--logo"><i class="fa-solid fa-book" style="color: rgb(65, 40, 134); font-size: 2.5rem;"></i></span>
-        <div class="education-detail--title">
-          <h2>Educacion</h2>
-          <p>Universitaria y posgrados</p>
-          <section class="education-cards--container">
-            <article class="education-detail--card">
-              <span class="clock">
-                <i class="fa-solid fa-graduation-cap" style="color: aliceblue;"></i>
-              </span>
-              <p class="education--card-title">Universidad Nacional de Entre Rios</p>
-              <p class="education--card-body">Bioingeniero: Proyecto final "Diseño de un dispositivo para monitoreo de ECG de deportistas de alto rendimiento durante la competencia"</p>
+  </div>
 
-            </article>
-            <article class="education-detail--card">
-              <span class="clock">
-                <i class="fa-solid fa-graduation-cap" style="color: aliceblue;"></i>
-              </span>
-              <p class="education--card-title">Universidad Autonoma de Entre Rios</p>
-              <p class="education--card-body">Posgrado: Estadistica aplicada a la investigacion"</p>
+  <div class="section">
+    <div class="section-title">Experiencia Laboral</div>
 
-            </article>
-          </section>
-        </div>
-  
-      </section>
-      <section class="sari-container">
-        <h2>Impresionante</h2>
-      </section>
-      <section id="plans" class="main-hobies-container">
-        <div class="hobies--title">
-          <h2>Pasatiempos</h2>
-          <p>Cosas de las que no trabajo pero me gustan</p>
-        </div>
-        <section class="hobies-container--slider">
-          <article class="hobies-container--card">
-            <p class="destacado">Foto</p>
-            <div class="hobie-info-container">
-              <h3 class="hobie-card--title">Fotografia</h3>
-              <p class="hobie-card--detalle"> <span>Me gusta sacar</span> fotos</p>
-              <p class="hobie-card--aclaro">Podes verlas en mi cuenta de flickr</p>
-              <button class="hobie-card--flickr" href="https://www.flickr.com/photos/159316122@N02" title=""> Ir a Flickr <i class="fa fa-flickr" aria-hidden="true"></i></button>
-            </div>
-          </article>
-          <article class="hobies-container--card">
-            <p class="destacado">Video</p>
-            <div class="hobie-info-container">
-              <h3 class="hobie-card--title">Edicion de video</h3>
-              <p class="hobie-card--detalle"> <span>A veces edito </span> videos</p>
-              <p class="hobie-card--aclaro">Podes verlas en mi cuenta de youtube</p>
-              <button class="hobie-card--flickr" href="https://www.flickr.com/photos/159316122@N02" title=""> Ir a Youtube <i class="fa fa-flickr" aria-hidden="true"></i></button>
-            </div>
-          </article>
-          <article class="hobies-container--card">
-            <p class="destacado">Video</p>
-            <div class="hobie-info-container">
-              <iframe class="hobies-video" src="https://www.youtube.com/embed/KPQwMCnCEVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-          </article>
-        </section>
-      </section>
-    </main>
-    <footer>
-   <section class="left">
-    <ul>
-      <li> <a href="https://www.linkedin.com/in/lucianocuello/">Linkedin</a></li>
-      <li><a href="https://www.instagram.com/cuelloluciano88/">Instagram</a></li>
-      <li><a href="">Facebook</a></li>
-    </ul>
-   </section>
-   <section class="right">
-    <img src="" alt="logo de redes">
-   </section>
-    </footer>
-    
+    <div class="entry-row">
+      <div class="entry-date-location">2023 - Presente<br>Rosario</div>
+      <div class="entry-description">
+        <strong>Desarrollador, Kozaca S.A.</strong><br>
+        Desarrollador web de software aplicado a la salud.
+      </div>
+    </div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2021<br>CABA</div>
+      <div class="entry-description">
+        <strong>Asesor técnico, D.G. de Coordinación, Tecnologías y Financiamiento, min saludBA</strong><br>
+        Asesoría sobre equipamiento médico en Hospital de Niños R. Gutiérrez.
+      </div>
+    </div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2020<br>Paraná</div>
+      <div class="entry-description">
+        <strong>Operador OCT, Centro Oftalmológico Dr. Alfredo Bermúdez</strong><br>
+        Coordinación técnica y asesoría en oftalmología.
+      </div>
+    </div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2020<br>Paraná</div>
+      <div class="entry-description">
+        <strong>Asistente técnico, I.O.S.P.E.R</strong><br>
+        Créditos asistenciales para beneficiarios.
+      </div>
+    </div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2017 - 2019<br>Paraná</div>
+      <div class="entry-description">
+        <strong>Docente universitario, U.A.D.E.R.</strong><br>
+        Clases en Matemática, Física, Bioquímica, Tecnología educativa.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Educación</div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2006 - 2017<br>Oro Verde</div>
+      <div class="entry-description">
+        <strong>Universidad Nacional de Entre Ríos</strong><br>
+        Bioingeniería. Proyecto: ECG para deportistas.
+      </div>
+    </div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2019<br>Paraná</div>
+      <div class="entry-description">
+        <strong>Universidad Autónoma de Entre Ríos</strong><br>
+        Posgrado en Estadística paramétrica aplicada.
+      </div>
+    </div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2022<br>Rosario</div>
+      <div class="entry-description">
+        <strong>Universidad Tecnológica Nacional</strong><br>
+        Diplomatura Full-stack Developer.
+      </div>
+    </div>
+
+    <div class="entry-row">
+      <div class="entry-date-location">2024<br>Rosario</div>
+      <div class="entry-description">
+        <strong>Universidad Tecnológica Nacional</strong><br>
+        Fundamentos y Bases de Datos.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Conocimientos</div>
+    <div class="skills">
+      <div>Git</div>
+      <div>MySQL</div>
+      <div>Jenkins</div>
+      <div>JavaScript</div>
+      <div>MongoDB</div>
+      <div>Docker</div>
+      <div>PHP (CakePHP)</div>
+      <div>Python (Django)</div>
+      <div>Edición de imagen/video</div>
+      <div>Good Office skills</div>
+      <div>Evaluación de Equipos Médicos</div>
+      <div>Capacitación de Usuarios</div>
+      <div>Electrónica</div>
+      <div>Comunicación Efectiva</div>
+      <div>Programación</div>
+      <div>Carga de Datos</div>
+      <div>Experiencia en Rubro Salud</div>
+    </div>
+  </div>
 </body>
-<script src="script.js"></script>
-<script src="https://kit.fontawesome.com/215a3eed15.js" crossorigin="anonymous"></script>
 </html>
