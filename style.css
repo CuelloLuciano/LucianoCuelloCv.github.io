@@ -1,55 +1,64 @@
 body {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: #333;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #2b2b2b;
   margin: 40px;
-  background-color: #fff;
+  background-color: #f4f6f8;
+  line-height: 1.6;
 }
 
 h1, h2 {
-  color: #000;
-  margin-bottom: 5px;
+  color: #111;
+  margin-bottom: 10px;
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 26px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .contact-info {
   text-align: center;
-  font-size: 13px;
-  margin-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #555;
 }
 
 .section {
-  margin-top: 30px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
 
 .section-title {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
-  border-top: 1px solid #aaa;
-  padding-top: 10px;
-  margin-bottom: 10px;
+  border-left: 4px solid #007BFF;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #007BFF;
   text-transform: uppercase;
 }
 
 .entry {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .entry-title {
   font-weight: bold;
-  margin-bottom: 3px;
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 4px;
 }
 
 .entry-subtitle {
   font-style: italic;
-  color: #666;
+  color: #777;
   font-size: 13px;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 ul {
@@ -58,7 +67,7 @@ ul {
 }
 
 ul li {
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   list-style-type: disc;
 }
 
@@ -69,4 +78,34 @@ ul li {
 
 .skills li {
   list-style-type: circle;
+  position: relative;
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black;
+    margin: 1cm;
+    font-size: 12pt;
+  }
+
+  .section {
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .section-title {
+    border-left: 4px solid black !important;
+    color: black;
+  }
+
+  .d-print-none {
+    display: none !important;
+  }
 }
