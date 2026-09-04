@@ -1,247 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CV - Luciano Cuello</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-
-  <style>
-    @media print {
-  body {
-    background-color: white !important;
-    color: black;
-    margin: 1cm;
-    font-size: 12pt;
-  }
-
-  .section {
-    background: none !important;
-    box-shadow: none !important;
-    padding: 0;
-  }
-
-  a {
-    color: black;
-    text-decoration: none;
-  }
-
-  .d-print-none {
-    display: none !important;
-  }
-
-  .section-title {
-    border-left: 4px solid black !important;
-    color: black;
-  }
-}
-
-    body {
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      color: #333;
-      margin: 40px;
-      background-color: #fff;
-      text-align: justify;
-    }
-
-    h1 {
-      font-size: 22px;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    .contact-info {
-      text-align: center;
-      font-size: 13px;
-      margin-bottom: 30px;
-    }
-
-    .section {
-      margin-top: 30px;
-    }
-
-    .section-title {
-      font-size: 16px;
-      font-weight: bold;
-      text-transform: uppercase;
-      color: #000;
-      border-bottom: 2px solid #333;
-      padding-bottom: 5px;
-      margin-bottom: 20px;
-    }
-
-    .resumen-row {
-      display: flex;
-      gap: 20px;
-    }
-
-    .resumen-label {
-      flex: 1;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    .resumen-content {
-      flex: 5;
-    }
-
-    .entry-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 20px;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
-    }
-
-    .entry-date-location {
-      flex: 1;
-      max-width: 30%;
-      font-style: italic;
-      color: #555;
-      font-size: 13px;
-    }
-
-    .entry-description {
-      flex: 2;
-      max-width: 65%;
-    }
-
-    .skills {
-      column-count: 2;
-      column-gap: 40px;
-    }
-
-    .skills div {
-      margin-bottom: 5px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Currículum de Luciano Cuello, bioingeniero y desarrollador web.">
+  <title>CV | Luciano Cuello</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Luciano Cuello, Bioingeniero</h1>
-  <div class="contact-info">
-    Rosario, S2000, Argentina | (3445) 408977 | cuelloluciano@gmail.com | 
-    <a href="https://www.linkedin.com/in/lucianocuello">linkedin.com/in/lucianocuello</a>
-  </div>
+  <main class="cv-shell">
+    <header class="cv-header">
+      <a class="back-link d-print-none" href="index.html">← Inicio</a>
+      <p class="eyebrow">Currículum</p>
+      <h1>Luciano Cuello</h1>
+      <p class="headline">Bioingeniero y desarrollador web</p>
+      <address class="contact-info">Rosario, Argentina <span>·</span> <a href="tel:+543445408977">(3445) 408977</a> <span>·</span> <a href="mailto:cuelloluciano@gmail.com">cuelloluciano@gmail.com</a> <span>·</span> <a href="https://www.linkedin.com/in/lucianocuello" target="_blank" rel="noopener noreferrer">LinkedIn</a></address>
+    </header>
 
-  <div class="section">
-    <div class="resumen-row">
-      <div class="resumen-label">Resumen</div>
-      <div class="resumen-content">
-        Soy Bioingeniero y desarrollador web con tres años de experiencia construyendo soluciones tecnológicas para el ámbito de la salud. Me apasiona combinar conocimientos técnicos con el impacto real que la tecnología puede tener en la calidad de vida de las personas. Disfruto trabajar en equipo, resolver problemas y seguir aprendiendo día a día.
-      </div>
+    <section class="profile" aria-labelledby="perfil"><h2 id="perfil">Perfil</h2><p>Bioingeniero y desarrollador web con experiencia creando soluciones tecnológicas para el ámbito de la salud. Combino una mirada técnica y clínica para comprender problemas complejos, colaborar con equipos diversos y construir herramientas digitales con impacto real en las personas.</p></section>
+
+    <section aria-labelledby="experiencia">
+      <h2 id="experiencia">Experiencia</h2>
+      <article class="timeline-entry"><div class="entry-meta"><time>2022 — Actualidad</time><span>Rosario</span></div><div class="entry-content"><h3>Desarrollador web <span>· Kozaca S.A.</span></h3><p>Desarrollo de software web aplicado al ámbito de la salud.</p></div></article>
+      <article class="timeline-entry"><div class="entry-meta"><time>2021</time><span>CABA</span></div><div class="entry-content"><h3>Asesor técnico <span>· Ministerio de Salud de la Provincia de Buenos Aires</span></h3><p>Asesoramiento sobre equipamiento médico en el Hospital de Niños R. Gutiérrez.</p></div></article>
+      <article class="timeline-entry"><div class="entry-meta"><time>2020</time><span>Paraná</span></div><div class="entry-content"><h3>Operador OCT <span>· Centro Oftalmológico Dr. Alfredo Bermúdez</span></h3><p>Coordinación técnica y asesoramiento en oftalmología.</p></div></article>
+      <article class="timeline-entry"><div class="entry-meta"><time>2020</time><span>Paraná</span></div><div class="entry-content"><h3>Asistente técnico <span>· I.O.S.P.E.R.</span></h3><p>Gestión de créditos asistenciales para beneficiarios.</p></div></article>
+      <article class="timeline-entry"><div class="entry-meta"><time>2017 — 2019</time><span>Paraná</span></div><div class="entry-content"><h3>Docente universitario <span>· U.A.D.E.R.</span></h3><p>Docencia en Matemática, Física, Bioquímica y Tecnología Educativa.</p></div></article>
+    </section>
+
+    <div class="two-columns">
+      <section aria-labelledby="educacion"><h2 id="educacion">Educación</h2><article class="education-entry"><time>2024</time><div><h3>Fundamentos y Bases de Datos</h3><p>Universidad Tecnológica Nacional · Rosario</p></div></article><article class="education-entry"><time>2022</time><div><h3>Diplomatura Full-stack Developer</h3><p>Universidad Tecnológica Nacional · Rosario</p></div></article><article class="education-entry"><time>2019</time><div><h3>Posgrado en Estadística Paramétrica Aplicada</h3><p>Universidad Autónoma de Entre Ríos · Paraná</p></div></article><article class="education-entry"><time>2006 — 2017</time><div><h3>Bioingeniería</h3><p>Universidad Nacional de Entre Ríos · Oro Verde</p><p class="detail">Proyecto: ECG para deportistas.</p></div></article></section>
+      <section aria-labelledby="habilidades"><h2 id="habilidades">Conocimientos</h2><div class="skill-group"><h3>Desarrollo y datos</h3><p>JavaScript · PHP (CakePHP) · Python (Django) · MySQL · MongoDB</p></div><div class="skill-group"><h3>Herramientas</h3><p>Git · Docker · Jenkins · Microsoft Office</p></div><div class="skill-group"><h3>Salud y tecnología</h3><p>Evaluación de equipos médicos · Capacitación de usuarios · Electrónica · Carga de datos</p></div><div class="skill-group"><h3>Profesional</h3><p>Comunicación efectiva · Trabajo interdisciplinario · Resolución de problemas</p></div></section>
     </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">Experiencia Laboral</div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2022 - Presente<br>Rosario</div>
-      <div class="entry-description">
-        <strong>Desarrollador, Kozaca S.A.</strong><br>
-        Desarrollador web de software aplicado a la salud.
-      </div>
-    </div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2021<br>CABA</div>
-      <div class="entry-description">
-        <strong>Asesor técnico, D.G. de Coordinación, Tecnologías y Financiamiento, min saludBA</strong><br>
-        Asesoría sobre equipamiento médico en Hospital de Niños R. Gutiérrez.
-      </div>
-    </div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2020<br>Paraná</div>
-      <div class="entry-description">
-        <strong>Operador OCT, Centro Oftalmológico Dr. Alfredo Bermúdez</strong><br>
-        Coordinación técnica y asesoría en oftalmología.
-      </div>
-    </div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2020<br>Paraná</div>
-      <div class="entry-description">
-        <strong>Asistente técnico, I.O.S.P.E.R</strong><br>
-        Créditos asistenciales para beneficiarios.
-      </div>
-    </div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2017 - 2019<br>Paraná</div>
-      <div class="entry-description">
-        <strong>Docente universitario, U.A.D.E.R.</strong><br>
-        Clases en Matemática, Física, Bioquímica, Tecnología educativa.
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">Educación</div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2006 - 2017<br>Oro Verde</div>
-      <div class="entry-description">
-        <strong>Universidad Nacional de Entre Ríos</strong><br>
-        Bioingeniería. Proyecto: ECG para deportistas.
-      </div>
-    </div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2019<br>Paraná</div>
-      <div class="entry-description">
-        <strong>Universidad Autónoma de Entre Ríos</strong><br>
-        Posgrado en Estadística paramétrica aplicada.
-      </div>
-    </div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2022<br>Rosario</div>
-      <div class="entry-description">
-        <strong>Universidad Tecnológica Nacional</strong><br>
-        Diplomatura Full-stack Developer.
-      </div>
-    </div>
-
-    <div class="entry-row">
-      <div class="entry-date-location">2024<br>Rosario</div>
-      <div class="entry-description">
-        <strong>Universidad Tecnológica Nacional</strong><br>
-        Fundamentos y Bases de Datos.
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">Conocimientos</div>
-    <div class="skills">
-      <div>Git</div>
-      <div>MySQL</div>
-      <div>Jenkins</div>
-      <div>JavaScript</div>
-      <div>MongoDB</div>
-      <div>Docker</div>
-      <div>PHP (CakePHP)</div>
-      <div>Python (Django)</div>
-      <div>Edición de imagen/video</div>
-      <div>Good Office skills</div>
-      <div>Evaluación de Equipos Médicos</div>
-      <div>Capacitación de Usuarios</div>
-      <div>Electrónica</div>
-      <div>Comunicación Efectiva</div>
-      <div>Programación</div>
-      <div>Carga de Datos</div>
-      <div>Experiencia en Rubro Salud</div>
-    </div>
-  </div>
-  <section class="mt-4 text-center d-print-none">
-  <button onclick="window.print()" class="btn btn-outline-secondary">
-    <i class="bi bi-printer"></i> Imprimir o guardar como PDF
-  </button>
-</section>
-
+    <button class="print-button d-print-none" type="button" onclick="window.print()">Imprimir / guardar como PDF</button>
+  </main>
 </body>
 </html>
